@@ -6,7 +6,7 @@ else:
 	
 terms = int(input())
 
-if terms <= 0:
+if terms <= 0: # See if there are enough terms
 	print('you stupid')
 else:
 	for i in range(terms):
